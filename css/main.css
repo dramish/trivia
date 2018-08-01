@@ -1,0 +1,34 @@
+body{
+	background: linear-gradient(to right, #FFE58C , #DEFE91);
+}
+/*alignment and padding*/
+/*trivia font*/
+h1, p{
+font-family: 'Kirang Haerang', cursive;
+font-size: 54px;
+}
+/*button static*/
+.btn-custom{
+	background: transparent;
+	border-color: transparent;
+	font-family: 'Kirang Haerang', cursive;
+	font-size: 54px;
+}
+/*button hover*/
+.btn-custom:hover, .btn-custom:active {
+	background: black;
+	color: white !important;
+	border-color: transparent;
+}
+/*question nos*/
+
+#wrapper{
+	text-align: center;
+}
+
+#tickOnTrue , #tickOnFalse{
+	height: 30px;
+	width: 50px;
+	top: 50%;
+	transform: translateY(-50%);
+}
